@@ -1,10 +1,10 @@
 {
   "_resourceType": "actor",
-  "id": "6e00b643-8d14-44eb-a0f9-67b4b3d70f2c",
-  "name": "Achivement1",
+  "id": "52b83ba6-be9e-488f-97a7-a1d675b47579",
+  "name": "Achivement02",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "dbadb229-b1b8-4ede-a606-eefaba263eeb",
+  "spriteSheetId": "5a5fbcc7-8a0e-480f-bc1c-d9b74ea0c830",
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
@@ -14,14 +14,14 @@
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
-  "symbol": "actor_25",
+  "symbol": "actor_20",
   "script": [],
   "startScript": [],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 11,
-  "y": 11,
-  "_index": 6
+  "x": 9,
+  "y": 8,
+  "_index": 1
 }

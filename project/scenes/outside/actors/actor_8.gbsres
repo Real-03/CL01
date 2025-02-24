@@ -1,39 +1,39 @@
 {
   "_resourceType": "actor",
-  "id": "e63a0fb5-2d9e-4a85-9ba0-e711e6de6cdc",
-  "_index": 1,
-  "symbol": "actor_1",
-  "prefabId": "",
+  "id": "537bde57-fd48-4980-a8bc-f7422a4955c3",
   "name": "",
-  "x": 27,
-  "y": 23,
   "frame": 0,
   "animate": false,
   "spriteSheetId": "30b8266a-0533-4f90-bd33-e97dc1d498ea",
-  "paletteId": "",
+  "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
   "animSpeed": 15,
+  "paletteId": "",
   "isPinned": false,
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
+  "_index": 7,
+  "symbol": "actor_28",
+  "x": 22,
+  "y": 24,
   "script": [
     {
-      "id": "149845e1-e0b4-4a2e-97e3-4a59c8bc2634",
+      "id": "14e361fe-962a-4450-b5ae-c3858b66dae4",
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Welcome to\nGBStudio!1"
+          "Welcome to\nGBStudio!2"
         ]
       }
     },
     {
       "command": "EVENT_INC_VALUE",
       "args": {
-        "variable": "13"
+        "variable": "14"
       },
-      "id": "35d6c22d-409a-43c1-bd38-78471e153e15"
+      "id": "626c47e2-25b8-4ce7-8c35-2b1b8385dd45"
     }
   ],
   "startScript": [],

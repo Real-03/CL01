@@ -5,8 +5,8 @@
   "symbol": "actor_5",
   "prefabId": "",
   "name": "",
-  "x": 21,
-  "y": 24,
+  "x": 17,
+  "y": 26,
   "frame": 0,
   "animate": false,
   "spriteSheetId": "dfa75239-299d-41fe-a6cd-9e9438da1938",
@@ -16,7 +16,7 @@
   "animSpeed": 15,
   "isPinned": false,
   "persistent": false,
-  "collisionGroup": "",
+  "collisionGroup": "1",
   "prefabScriptOverrides": {},
   "script": [
     {
@@ -74,7 +74,15 @@
   ],
   "startScript": [],
   "updateScript": [],
-  "hit1Script": [],
+  "hit1Script": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "e31f1e0e-2656-46d9-b39e-8500924102da"
+    }
+  ],
   "hit2Script": [],
   "hit3Script": []
 }

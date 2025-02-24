@@ -5,8 +5,8 @@
   "symbol": "actor_3",
   "prefabId": "",
   "name": "",
-  "x": 3,
-  "y": 24,
+  "x": 4,
+  "y": 20,
   "frame": 0,
   "animate": false,
   "spriteSheetId": "52ad34df-f245-4b2a-b94c-a82af1002871",
@@ -16,52 +16,9 @@
   "animSpeed": 15,
   "isPinned": false,
   "persistent": false,
-  "collisionGroup": "",
+  "collisionGroup": "1",
   "prefabScriptOverrides": {},
-  "script": [
-    {
-      "id": "137799a4-c0db-46dd-91c9-36c0e5386e3d",
-      "command": "EVENT_TEXT",
-      "args": {
-        "text": "Have you seen my\ncat anywhere?"
-      }
-    },
-    {
-      "id": "ef31c786-4d05-4ec4-9828-0b20bea82a50",
-      "command": "EVENT_IF",
-      "args": {
-        "variable": "0",
-        "__collapseElse": true,
-        "condition": {
-          "type": "variable",
-          "value": "0"
-        },
-        "__collapse": true
-      },
-      "children": {
-        "true": [
-          {
-            "id": "a36892fc-7718-4107-b5b5-07b6c5eea254",
-            "command": "EVENT_TEXT",
-            "args": {
-              "text": "He's by the house?\nThank you!"
-            }
-          },
-          {
-            "id": "d63037fd-1207-4d62-a104-170f4c817eeb",
-            "command": "EVENT_SET_VALUE",
-            "args": {
-              "variable": "4",
-              "value": {
-                "type": "true"
-              }
-            }
-          }
-        ],
-        "false": []
-      }
-    }
-  ],
+  "script": [],
   "startScript": [],
   "updateScript": [
     {
@@ -122,7 +79,7 @@
         "value14": 15,
         "__collapseCase15": false,
         "value15": 16,
-        "__collapseElse": true,
+        "__collapseElse": false,
         "__collapse": true
       },
       "children": {
@@ -228,9 +185,45 @@
           }
         ]
       }
+    },
+    {
+      "command": "EVENT_LAUNCH_PROJECTILE",
+      "args": {
+        "__section": "projectile",
+        "spriteSheetId": "dbadb229-b1b8-4ede-a606-eefaba263eeb",
+        "spriteStateId": "",
+        "actorId": "$self$",
+        "x": 0,
+        "y": 0,
+        "directionType": "actor",
+        "otherActorId": "$self$",
+        "direction": "right",
+        "angle": 0,
+        "angleVariable": "L0",
+        "targetActorId": "$self$",
+        "initialOffset": 0,
+        "speed": 1,
+        "animSpeed": 15,
+        "lifeTime": 1,
+        "loopAnim": true,
+        "destroyOnHit": true,
+        "collisionGroup": "1",
+        "collisionMask": [
+          "player"
+        ]
+      },
+      "id": "b779457e-a61c-49bb-a1cc-12c49cf9a577"
     }
   ],
-  "hit1Script": [],
+  "hit1Script": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "e84e9d63-4264-410e-9ff7-6a0ad1db7e77"
+    }
+  ],
   "hit2Script": [],
   "hit3Script": []
 }

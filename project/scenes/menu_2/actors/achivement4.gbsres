@@ -1,6 +1,6 @@
 {
   "_resourceType": "actor",
-  "id": "7bf35f62-634f-45d8-ba09-250f211b4c36",
+  "id": "6e00b643-8d14-44eb-a0f9-67b4b3d70f2c",
   "name": "Achivement1",
   "frame": 0,
   "animate": false,
@@ -14,7 +14,7 @@
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
-  "symbol": "actor_22",
+  "symbol": "actor_25",
   "script": [],
   "startScript": [],
   "updateScript": [],
@@ -22,6 +22,6 @@
   "hit2Script": [],
   "hit3Script": [],
   "x": 11,
-  "y": 5,
-  "_index": 3
+  "y": 11,
+  "_index": 6
 }

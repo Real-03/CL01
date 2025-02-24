@@ -1,6 +1,6 @@
 {
   "_resourceType": "actor",
-  "id": "c2413412-e06c-4f98-88c5-cb35553d1ae8",
+  "id": "9a4dfc9d-d122-4689-b7ff-67973480e435",
   "name": "Achivement1",
   "frame": 0,
   "animate": false,
@@ -14,7 +14,7 @@
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
-  "symbol": "actor_23",
+  "symbol": "actor_26",
   "script": [],
   "startScript": [
     {
@@ -23,17 +23,17 @@
         "actorId": "$self$",
         "frame": {
           "type": "number",
-          "value": 3
+          "value": 5
         }
       },
-      "id": "7e5a1480-e267-41d8-8c6b-8268db5c8994"
+      "id": "9949cda2-153c-494b-9dfa-91db0041693d"
     }
   ],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 12,
-  "y": 5,
-  "_index": 4
+  "x": 11,
+  "y": 8,
+  "_index": 7
 }
