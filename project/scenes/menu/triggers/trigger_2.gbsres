@@ -29,7 +29,7 @@
           "up"
         ],
         "__collapseElse": true,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -43,7 +43,7 @@
               },
               "y": {
                 "type": "number",
-                "value": 6
+                "value": 8
               }
             },
             "id": "c6d95e3c-35da-4ad8-a8b0-8f5d4dec0bb6"
@@ -60,7 +60,7 @@
           "down"
         ],
         "__collapseElse": true,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -74,7 +74,7 @@
               },
               "y": {
                 "type": "number",
-                "value": 4
+                "value": 14
               }
             },
             "id": "3ceb4ae0-db70-4707-97f7-d62e0e20cba9"

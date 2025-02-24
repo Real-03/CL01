@@ -3,7 +3,7 @@
   "id": "50e647fd-ff7c-44d3-9335-09e5193f0569",
   "_index": 8,
   "name": "Menu",
-  "backgroundId": "b49ea566-b022-478c-979d-ec3ee255fdc5",
+  "backgroundId": "c1142f2b-2fc5-4dc7-b4d2-25243e31b5e2",
   "tilesetId": "",
   "width": 20,
   "height": 18,
@@ -22,6 +22,17 @@
         "actorId": "$self$"
       },
       "id": "a377691a-de67-44c2-b2f4-abad4d79e4ca"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_FRAME",
+      "args": {
+        "actorId": "dbc53f01-5212-425a-89a3-f352a86cfc8e",
+        "frame": {
+          "type": "variable",
+          "value": "13"
+        }
+      },
+      "id": "010e11ca-d921-4ea7-8ffd-5e80988e8e82"
     }
   ],
   "playerHit1Script": [],

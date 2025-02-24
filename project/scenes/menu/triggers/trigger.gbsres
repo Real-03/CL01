@@ -31,7 +31,7 @@
           "up"
         ],
         "__collapseElse": true,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -45,7 +45,7 @@
               },
               "y": {
                 "type": "number",
-                "value": 8
+                "value": 14
               }
             },
             "id": "32ee453a-a811-4447-bab7-ff94ad95b55d"
@@ -62,7 +62,7 @@
           "down"
         ],
         "__collapseElse": true,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -76,7 +76,7 @@
               },
               "y": {
                 "type": "number",
-                "value": 6
+                "value": 8
               }
             },
             "id": "a3ee476f-653d-4c72-a036-711b8d2c1f76"

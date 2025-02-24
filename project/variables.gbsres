@@ -67,6 +67,11 @@
       "symbol": ""
     },
     {
+      "id": "13",
+      "name": "Achivement1",
+      "symbol": "var_achivement1"
+    },
+    {
       "id": "868097a1-745e-44d3-b4e3-e72f63f6a5f7__L0",
       "name": "ReturnMainMenu",
       "symbol": "var_returnmainmenu"
