@@ -1,0 +1,31 @@
+{
+  "_resourceType": "scene",
+  "id": "50e647fd-ff7c-44d3-9335-09e5193f0569",
+  "_index": 8,
+  "name": "Menu",
+  "backgroundId": "b49ea566-b022-478c-979d-ec3ee255fdc5",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_9",
+  "x": 576,
+  "y": 664,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "a377691a-de67-44c2-b2f4-abad4d79e4ca"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "autoFadeEventCollapse": true
+}
