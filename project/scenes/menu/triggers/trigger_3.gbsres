@@ -17,7 +17,8 @@
           "b",
           "start",
           "up",
-          "down"
+          "down",
+          "a"
         ],
         "__collapse": false
       },
@@ -90,7 +91,8 @@
       "args": {
         "input": [
           "b",
-          "start"
+          "start",
+          "a"
         ],
         "__collapseElse": true,
         "__collapse": false

@@ -14,19 +14,11 @@
   "paletteIds": [],
   "spritePaletteIds": [],
   "autoFadeSpeed": 1,
-  "script": [
-    {
-      "command": "EVENT_ACTOR_MOVE_CANCEL",
-      "args": {
-        "actorId": "$self$",
-        "__collapse": false
-      },
-      "id": "dac17da4-c2a0-417c-ba50-ced81b1d5241"
-    }
-  ],
+  "script": [],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
   "collisions": "",
-  "autoFadeEventCollapse": true
+  "autoFadeEventCollapse": true,
+  "playerSpriteSheetId": "000a6dde-cb60-436e-b357-30a529daa139"
 }

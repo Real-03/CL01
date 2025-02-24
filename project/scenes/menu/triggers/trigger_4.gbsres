@@ -16,7 +16,9 @@
         "input": [
           "up",
           "down",
-          "start"
+          "start",
+          "a",
+          "b"
         ],
         "__collapse": false
       },
@@ -88,7 +90,9 @@
       "command": "EVENT_IF_INPUT",
       "args": {
         "input": [
-          "start"
+          "start",
+          "a",
+          "b"
         ],
         "__collapseElse": true,
         "__collapse": false
@@ -96,52 +100,21 @@
       "children": {
         "true": [
           {
-            "command": "EVENT_CHOICE",
+            "command": "EVENT_SWITCH_SCENE",
             "args": {
-              "variable": "L0",
-              "trueText": "Yes",
-              "falseText": "No"
-            },
-            "id": "3d91619a-9d8c-4f08-bfd3-d91264a8fba6"
-          },
-          {
-            "command": "EVENT_IF",
-            "args": {
-              "condition": {
-                "type": "eq",
-                "valueA": {
-                  "type": "variable",
-                  "value": "L0"
-                },
-                "valueB": {
-                  "type": "true"
-                }
+              "sceneId": "4912bee2-387a-472f-ae4f-6679b6149517",
+              "x": {
+                "type": "number",
+                "value": 0
               },
-              "__collapseElse": true
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": 3
             },
-            "children": {
-              "true": [
-                {
-                  "command": "EVENT_SWITCH_SCENE",
-                  "args": {
-                    "sceneId": "4912bee2-387a-472f-ae4f-6679b6149517",
-                    "x": {
-                      "type": "number",
-                      "value": 0
-                    },
-                    "y": {
-                      "type": "number",
-                      "value": 0
-                    },
-                    "direction": "",
-                    "fadeSpeed": 3
-                  },
-                  "id": "fc6e164d-0de1-446d-8aa5-08cc1dff4eab"
-                }
-              ],
-              "false": []
-            },
-            "id": "52f30a42-401e-415d-970e-2ebf03aa70e6"
+            "id": "fc6e164d-0de1-446d-8aa5-08cc1dff4eab"
           }
         ],
         "false": []

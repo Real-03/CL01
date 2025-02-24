@@ -91,7 +91,8 @@
       "args": {
         "input": [
           "start",
-          "b"
+          "b",
+          "a"
         ],
         "__collapseElse": true,
         "__collapse": false
